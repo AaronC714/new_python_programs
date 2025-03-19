@@ -4,3 +4,4 @@
 #print full name without the spaces
 
 user_name = input(str("please input multiple space characters as you wish then add your full name, (for example:        Juan Dela Cruz): "))
+cut_name = user_name.lstrip()
